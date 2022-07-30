@@ -18,6 +18,11 @@ if __name__ == "__main__":
     }
 
     # 发送请求
+    """
+    data: 请求参数
+    headers: 请求头封装
+    url: 请求路径
+    """
     response = requests.post(url=post_url, data=data, headers=headers)
 
     # 获取数据, json 方法返回的是一个 object
